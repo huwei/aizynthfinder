@@ -19,9 +19,15 @@ uv pip install -e ".[all]"
 
 
 ## Usage
+
+### 命令提示符下运行
 在本地执行
 ```shell
 aizynthcli --config config_local.yml --smiles smiles_sample.txt
 ```
-会
+执行完成后生成`output.json.gz`，用gunzip进行解压
+
+```shell
+gunzip output.json.gz
+```
 
