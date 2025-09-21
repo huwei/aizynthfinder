@@ -31,3 +31,9 @@ aizynthcli --config config_local.yml --smiles smiles_sample.txt
 gunzip output.json.gz
 ```
 
+### Jupyter下运行
+config_local.yml中的路径修改成绝对路径后，然后执行如下命令
+
+```shell
+    aizynthapp --config config_local.yml
+```
