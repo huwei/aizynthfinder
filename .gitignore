@@ -143,4 +143,4 @@ coverage/
 # Files created by the tool
 devtools/seldon-output-*/
 
-.aiz_models/
+aiz_models/

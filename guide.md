@@ -15,10 +15,15 @@ uv pip install -e ".[all]"
 
 3. install model
 
-访问 https://zenodo.org/ ，搜索`aizynthfinder`,找到模型并下载，解压到当前工程的aiz_models目录下
+访问 https://zenodo.org/ ，搜索`aizynthfinder`,找到模型并下载，解压到当前工程的`aiz_models`目录下
 
 
 ## Usage
+
+```shell
+cp config_sample.yml config_local.yml
+```
+并将config_local中的路径修改成当前目录的绝对路径
 
 ### 命令提示符下运行
 在本地执行
